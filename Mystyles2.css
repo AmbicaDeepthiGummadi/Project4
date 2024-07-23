@@ -1,0 +1,94 @@
+nav{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display :inline;
+    margin-right :20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:chartreuse;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+    color: rgb(0, 255, 242);
+    text-decoration-color:rgb(0, 255, 0);
+}
+footer{margin-top: 10%;}
+footer{
+    background-color: darkorange;
+    box-shadow: 10px 10px 10px orange;
+    color: rgb(15, 2, 255);
+    text-align: center;
+    padding: 8px;   
+    
+}
+.button {
+    border: 2%;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #04AA6D;
+  }
+.bod{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px, 900px;
+}
+.c{display: grid;align-items: center;grid-template-columns: 1fr 1fr 1fr;column-gap: 2%;margin-left: 4%;}
+.bc{
+    background-image: url("p4.jpg");
+    background: linear-gradient(to left,rgba(255,255,255,0),rgb(255,255,255)),url("p4.jpg");
+}
+.bcl{background-image: url("p4.jpg");}
+.d{
+    text-align: center;
+    height:320px;
+    width: 300px;
+    font-size: large;
+    background-color:greenyellow;
+    background:radial-gradient(circle,rgb(0, 255, 234),bisque,rgb(0, 255, 255));
+    box-shadow: 10px 10px 10px hotpink;
+}
+.cd{background: bisque;}
+img{border-radius: 6%;}
+p{font-family:Georgia, 'Times New Roman', Times, serif}
+.e{display: grid;align-items: center;grid-template-columns: 1fr 1fr 1fr;column-gap: 7%;margin-left: 5%;font-size: large;}
+h1{text-shadow: 5px 5px 10px chartreuse;text-align: center;}
+h2{text-shadow: 5px 5px 10px deeppink,10px 10px 10px greenyellow;}
+.container{
+        .container{
+            margin:0 auto;background: rgb(211, 199, 38);
+            box-sizing: border-box;
+        }
+        @media screen and (min-width:360px){
+        .container{width:100%;padding: 5px 10px;}
+    }
+        @media screen and (min-width:768px) and (max-width:1024){
+        .container{
+            width: 750px;padding: 5px 10px;
+        }
+    }
+        @media screen and (min-width:1024px){
+        .container{
+           width: 980px;padding: 5px 15px;
+        }
+    }
+    @media screen and (min-width:1280px){
+        .container{
+            width: 1200px;padding: 5px 20px;
+        }
+    }
+}

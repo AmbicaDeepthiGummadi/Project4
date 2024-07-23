@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>UI Pages</title>
+        <link rel="stylesheet" href="Mystyles2.css"/>
+        <style>
+            div {
+                margin-left: 33%;
+                height:99%;
+                width: 38%;
+                text-align: center;
+                font-size: large;
+                background:linear-gradient(rgb(63, 223, 71),rgb(250, 250, 43));
+                box-shadow:10px 10px 10px yellow,20px 20px 20px rgb(255, 0, 170);
+            }
+            body{
+                background-image: url("s1.jpg");
+            }
+        </style>
+    </head>
+    <body class="container">
+        <header align="right">
+            <nav>
+                <ul>
+                    <li><a href=".\Home.html">Home</a></li>
+                    <li><a href=".\About.html">About</a></li>
+                    <li><a href=".\Contactus.html">Contact Us</a></li>
+                    <li><a href=".\Registrationpage.html">Register</a></li>
+                    <li><a href=".\Loginpage.html">Login</a></li>
+                </ul>
+            </nav>
+        </header><br><br>
+        <h2 align="center"><span style="color: darkviolet;">Place Your Order Here...</span></h2>
+        <br><br><br>
+        <div>
+        <form action=".\Loginpage.html">
+            <section class="c1">
+                User Name : <input type="text" name="uname" autofocus placeholder="username"><br><br>
+                Password : <input type="password" name="pass" placeholder="password"><br><br>
+                Age :  <select name="age">
+                <option value="t">15-19</option>
+                <option value="a">20-24</option>
+                <option value="y">25-30</option>
+                </select><br><br>
+                Date of Birth:<input type="date" name="=dob" placeholder="Date of Birth"><br><br>
+                Email: <input type="email" name="=office" id="myofficeid" placeholder="email"><br><br>
+                Mobile no:
+                <input type="tel" name="=personal" id="per1" placeholder="mobile no"
+                pattern="[0-9]{10}" title="the ten digits number">
+                <br><br>
+                Gender  : 
+                <br>
+                <input type="radio" name="gen" value="M">Male<br>
+                <input type="radio" name="gen" value="F">Female <br>
+                <input type="radio" name="gen" value="O">Others <br><br>
+               Languages : 
+               <br>
+               <input type="checkbox" name="lang" value="E">English<br>
+               <input type="checkbox" name="lang" value="H">Hindi<br>
+               <input type="checkbox" name="lang" value="T">Telugu<br><br>
+               Address : 
+               <br><br>
+               <textarea rows="9" cols="38">Enter Your Address</textarea><br><br>
+               <center><input type="submit"></center>
+            </section>
+        </form>
+        </div>
+        <footer>
+            <p><b>&copy; 2024 MyBakery.All rights reserved</b></p>
+        </footer>
+    </body>
+</html>
