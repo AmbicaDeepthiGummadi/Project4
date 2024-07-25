@@ -34,7 +34,7 @@ footer{
     border: 2%;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: inline;
     font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
