@@ -33,6 +33,7 @@ footer{
 .button {
     border: 2%;
     color: white;
+    padding: 15px 22px;
     text-align: center;
     display: inline;
     font-size: 14px;
